@@ -105,7 +105,7 @@ def editPac(): # editar paciente
                 filePac.write(f"{paciente}\n")
             filePac.close()
             print()
-            print("Datos del paciente acutalizado exitosamente.")
+            print("Datos del paciente actualizado exitosamente.")
             return
     print("No hubo coincidencias con ese número de identificación.")
     print()
